@@ -433,7 +433,7 @@
 
 !- my precious
 3700 print "he had a magic ring marked ";
-3710 goto 3720+40*int (rnd(1)*3)
+3710 on int(rnd(1)*3) goto 3760,3800
 
 !- zap ring
 3720 print "{reverse on}zap{reverse off}"

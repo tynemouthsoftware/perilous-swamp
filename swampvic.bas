@@ -467,7 +467,7 @@
 !- my precious
 4010 print "he had a magic ring"
 4020 print "marked ";
-4030 goto 4040+40*int (rnd(1)*3)
+4030 on int(rnd(1)*3) goto 4080,4120
 
 !- zap ring
 4040 print "{reverse on}zap{reverse off}"
